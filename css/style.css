@@ -405,11 +405,10 @@ span {
 	font-size: 0.81rem;
 	padding: 16px 18px;
 	background-color: var(--input-color-background);
-	color: var(--input-color-text);
 }
 
-.input:focus {
-	outline: none;
+input::placeholder {
+	color: var(--input-color-text
 }
 
 .btn {
