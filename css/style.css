@@ -408,7 +408,7 @@ span {
 }
 
 input::placeholder {
-	color: var(--input-color-text
+	color: var(--input-color-text);
 }
 
 .btn {
