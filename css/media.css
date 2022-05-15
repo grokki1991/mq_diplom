@@ -88,10 +88,6 @@
         margin-top: -15px;
     }
 
-    .aside {
-        width: 100%;
-    }
-
     .goods-box {
         width: calc((100% / 2) - 15px);
     }
