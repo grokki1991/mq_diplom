@@ -133,6 +133,7 @@
     .logo {
         margin: 0 auto;
         width: 90%;
+        max-width: 250px;
     }
     .burger-menu {
         margin-bottom: 170px;
