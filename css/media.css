@@ -1,3 +1,5 @@
+/*Планшетная версия сайта*/
+
 @media (max-width: 1200px) {
     .header-menu {
         position: relative;
@@ -44,19 +46,15 @@
         margin-top: 5px;
     }
 
-    .header-content,
     .page-content,
     .goods-wrapper {
         padding: 0;
-        min-width: 641px;
     }
 
-    .header-content,
-    .page-content,
-    .goods,
-    .footer-icons {
+    .page-content {
+        display: flex;
+        justify-content: space-between;
         width: 90%;
-        gap: 34px;
     }
 
     .page-content {
@@ -88,6 +86,10 @@
         margin-top: -15px;
     }
 
+    .goods {
+        flex-direction: column;
+    }
+
     .goods-box {
         width: calc((100% / 2) - 15px);
     }
@@ -104,5 +106,83 @@
         flex-wrap: wrap;
         gap: 0;
 
+    }
+}
+
+/*Мобильная версия сайта*/
+
+@media (max-width: 640px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    .header {
+        min-height: 90vh;
+    }
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-menu {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .logo {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .burger-menu {
+        margin-bottom: 170px;
+    }
+    .title {
+        margin-top: 40px;
+    }
+    .title-text {
+        font-size: 1.6rem;
+        line-height: 2.3rem;
+    }
+    .page {
+        margin: 50px 0;
+    }
+    .trends-box {
+        width: 100%;
+    }
+    .trends-box:first-child {
+        margin-bottom: 5px;
+    }
+    .trends-title-href {
+        font-size: 1rem;
+    }
+    .page-content {
+        flex-direction: column;
+    }
+    .main, .aside {
+        width: 100%;
+        max-width: 100%;
+    }
+    .article {
+        align-items: center;
+    }
+    .article-title {
+        font-size: 1rem;
+    }
+    .article-text>p {
+        font-size: 0.9rem;
+    }
+    .posts-title {
+        font-size: 0.9rem;
+    }
+    .goods-wrapper {
+        flex-direction: column;
+    }
+    .goods-box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .goods-box:nth-child(even) {
+        margin-left: 0;
     }
 }
