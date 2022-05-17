@@ -116,80 +116,108 @@
     h2 {
         font-size: 1.2rem;
     }
+
     h3 {
         font-size: 1rem;
     }
+
     .header {
         min-height: 90vh;
     }
+
     .header-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .header-menu {
         flex-direction: column-reverse;
         align-items: flex-end;
     }
+
     .logo {
         margin: 0 auto;
         width: 90%;
         max-width: 250px;
     }
+
     .burger-menu {
         margin-bottom: 170px;
     }
+
     .title {
         margin-top: 40px;
     }
+
     .title-text {
         font-size: 1.6rem;
         line-height: 2.3rem;
     }
+
     .page {
         margin: 40px 0;
     }
+
     .article {
         margin-bottom: 35px;
     }
+
     .trends {
         margin-bottom: 44px;
     }
+
     .trends-box {
         width: 100%;
     }
+
     .trends-box:first-child {
         margin-bottom: 5px;
     }
+
     .trends-title-href {
         font-size: 1rem;
     }
+
     .page-content {
         flex-direction: column;
     }
-    .main, .aside {
+
+    .main,
+    .aside {
         width: 100%;
         max-width: 100%;
     }
+
     .article {
         align-items: center;
     }
+
+    .article-img {
+        width: 100%;
+    }
+
     .article-title {
         font-size: 1rem;
     }
+
     .article-text>p {
         font-size: 0.9rem;
     }
+
     .posts-title {
         font-size: 0.9rem;
     }
+
     .goods-wrapper {
         flex-direction: column;
     }
+
     .goods-box {
         width: 100%;
         margin-bottom: 25px;
     }
+
     .goods-box:nth-child(even) {
         margin-left: 0;
     }

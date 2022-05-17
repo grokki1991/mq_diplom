@@ -284,10 +284,13 @@ span {
 	margin-bottom: 60px;
 }
 
-.article-img {
-	display: block;
+.article-img-box {
 	max-width: 381px;
 	width: 100%;
+}
+
+.article-img {
+	display: block;
 	background-color: #ccc;
 }
 
