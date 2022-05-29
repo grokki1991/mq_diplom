@@ -57,14 +57,6 @@
         width: 90%;
     }
 
-    .page-content {
-        justify-content: space-around;
-    }
-
-    .main {
-        max-width: 392px;
-    }
-
     .article {
         flex-direction: column;
     }
@@ -191,6 +183,10 @@
 
     .article {
         align-items: center;
+    }
+
+    .article-img-box {
+        max-width: 100%;
     }
 
     .article-img {
